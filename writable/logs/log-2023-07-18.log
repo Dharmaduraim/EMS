@@ -1,0 +1,9 @@
+CRITICAL - 2023-07-18 15:11:57 --> syntax error, unexpected identifier "tabRow", expecting "," or ";"
+in APPPATH\Views\entrylist.php on line 35.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('entrylist', [], true)
+ 3 APPPATH\Controllers\Home.php(67): view('entrylist', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->viewentry()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
