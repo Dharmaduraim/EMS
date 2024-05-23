@@ -16,15 +16,13 @@ class Home extends BaseController
 
     }
 
-
-
     public function index()
     {
            return redirect()->to(site_url('home/viewentry'));
     }
     public function test11()
     {
-           return redirect()->to(site_url('home/viewentry'));
+         echo "11";
     }
 
     public function dashboard()
