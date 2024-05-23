@@ -22,6 +22,10 @@ class Home extends BaseController
     {
            return redirect()->to(site_url('home/viewentry'));
     }
+    public function test11()
+    {
+           return redirect()->to(site_url('home/viewentry'));
+    }
 
     public function dashboard()
     {
